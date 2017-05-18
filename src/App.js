@@ -59,17 +59,17 @@ const formGroups = [
 const menuItems = [
   {
     title: 'Grey Poupon',
-    description: 'Yum',
+    description: 'It is so much good!',
     price: '1,000'
   },
   {
-    title: 'Grey Poupon',
-    description: 'Yum',
+    title: 'Pizza',
+    description: 'Yummy circle shaped thing with stuff on it.',
     price: '1,000'
   },
   {
-    title: 'Grey Poupon',
-    description: 'Yum',
+    title: 'Fries With That',
+    description: 'What ever you get, get fries with it! Awesome!',
     price: '1,000'
   }
 ];
@@ -80,7 +80,10 @@ class App extends Component {
     return (
       <main id="App">
         <Nav title={ title } links={ links } />
-        <Header title={ title } tagline={ tagline } imageUrl={ headerImageUrl } />
+        <Header
+          title={ title }
+          tagline={ tagline }
+          imageUrl={ headerImageUrl } />
 
         <div className="container">
           <h2 id="reservations">Reservations</h2>
